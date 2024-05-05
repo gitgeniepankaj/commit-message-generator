@@ -36,7 +36,7 @@ REPO_PATH='' # Folder Path
 To start the application, run:
 
 ```bash
-node src/index.js 'Repository folder path'
+node src/index.js
 ```
 
 This will generate a commit message based on predefined code differences. You can modify `src/index.js` to handle real code differences as per your project needs.
