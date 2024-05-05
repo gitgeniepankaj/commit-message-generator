@@ -1,0 +1,25 @@
+{
+  "name": "commit-message-generator",
+  "version": "1.0.0",
+  "description": "This tool would use Open AI / GROQ to generate meaningful commit messages based on the changes made in the commit. It could analyze the code differences and summarize the changes in a concise, informative way, which is particularly useful for developers who struggle with writing commit messages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "keywords": [
+    "message",
+    "generator",
+    "commit",
+    "git",
+    "ai",
+    "node"
+  ],
+  "author": "Pankaj Dadure",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "groq-sdk": "^0.3.3",
+    "openai": "^4.40.2",
+    "simple-git": "^3.24.0"
+  }
+}
